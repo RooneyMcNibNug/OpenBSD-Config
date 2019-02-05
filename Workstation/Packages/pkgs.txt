@@ -1,0 +1,12 @@
+###run pkg_add -l pkgs.txt as su
+firefox--
+nano--
+git--
+curl--
+wget--
+conky--
+libreoffice--
+geany--
+gcc--
+tor--
+tor-browser--
