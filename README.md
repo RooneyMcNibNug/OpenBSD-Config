@@ -7,6 +7,7 @@ _ _ _
 ##  Organization of this repo:
 * Resources
 * Workstation
+  *  [Why OpenBSD for workstation?](/Workstation/Why/INDEX.md)
   *  Installation
   *  afterboot(8)
   *  Windows (xfce)
@@ -15,6 +16,7 @@ _ _ _
   *  Groups
   *  doas(1)
 * Server
+  *  Why OpenBSD for servers?
   *  Installation
   *  afterboot(8)
   *  Networking
