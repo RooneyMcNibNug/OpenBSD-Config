@@ -13,7 +13,7 @@ occasions.
 
 ## Stability
 OpenBSD is often evangalized as one of the soundest "works out of the 
-box" systems, and I tend to agree. A big part of this is probaly the 
+box" systems, and I tend to agree. A big part of this is probably the 
 "less code, less problems" development mindset behind the OS.
 
 Another factor of stability is the fact that OpenBSD runs great on a lot 
@@ -31,5 +31,5 @@ OpenBSD has some awesome mitigation applications off the bat - things
 like ```doas``` (a great sudo alternative), ```pledge``` and ```karl``` 
 (further details in other sections) that not only have you situated 
 with a practically secure setup from the start, but further allow the 
-crafting of a safer and more suctomized environment through principals 
-of entropy, permissions, enecryption, etc.
+crafting of a safer and more customized environment through applied 
+principals of entropy, permissions, enecryption, etc.
