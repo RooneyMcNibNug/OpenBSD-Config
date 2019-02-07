@@ -33,3 +33,6 @@ like ```doas``` (a great sudo alternative), ```pledge``` and ```karl```
 with a practically secure setup from the start, but further allow the 
 crafting of a safer and more customized environment through applied 
 principals of entropy, permissions, enecryption, etc.
+
+## "Libre"
+OpenBSD uses _only_ free software and components in its base system - down to the source and even binaries. 
