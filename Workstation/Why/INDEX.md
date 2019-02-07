@@ -35,4 +35,5 @@ crafting of a safer and more customized environment through applied
 principals of entropy, permissions, enecryption, etc.
 
 ## "Libre"
-OpenBSD uses _only_ free software and components in its base system - down to the source and even binaries. 
+OpenBSD uses _only_ free software and components in its base system - down to the source and even binaries. When you're using OpenBSD you're using an OS that is fully open source and thus "free" software, and you're supporting the collaborative development of a system [free to redistribute](https://www.openbsd.org/policy.html).
+
