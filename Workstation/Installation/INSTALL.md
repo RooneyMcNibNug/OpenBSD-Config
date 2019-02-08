@@ -37,5 +37,31 @@ Once you've finished downloading the install image, [write the file(s)](https://
  to be downloaded, but if you can it might be a good idea to get a stable NIC connection. We will go over network configuration things
  more in another section anyways.
  
+ If you _do_ install with an active netwoprk connection, you can select the desired interface to run off of and either choose ```dhcp``` to get an available IP from your current network or assign it an IP of your choice:
  
+ ![get wired](https://github.com/RooneyMcNibNug/OpenBSD-Config/blob/master/Workstation/Installation/3network_and_accounts.png)
  
+ I have redacted some of the DNS config and other options in this last screenshot, but we can go over some of the options regarding changes to this later (after install).
+ 
+ Once we have finalized these network items, we can move on to the user accounts portion of the install. The root account is the first one we are required to set up a password for. Please ensure you've chosen a strong password - this is the account you will be able to make monumental chnages to your system with!
+ 
+ After the password is created and verified once more, you will be asked if you want to start ```sshd``` (the ssh remote connection daemon) on the system everytime you boot up by default. This will be covered later, but let's just choose ```no``` for now, as we don't need to mull about this so much (at the time at least) for a workstation.
+
+We will be choosing ```yes``` to the question of if we want to create another user on the system. This is a good security principle operationally - to have a non-root user for basic system usage, so that you only need to elevate to root in the case of changing a configuration, installing something, or other major maintenance of the OS. Name the user how you please and choose an additional password for this login.
+
+Now we move to the preperation of the disk(s) on your system:
+![write here, write now](https://github.com/RooneyMcNibNug/OpenBSD-Config/blob/master/Workstation/Installation/4disks.png)
+
+Assuming you have a single drive on this machine, you will most likely be selecting ```[default]``` here, but it is probably best to enter ```?``` to list all the disks found on the system before preparing things to be sure.
+
+The ```[a]``` default option for "Auto" layout of the disks is probably preferred here as well, but this might differ based on your environment.
+
+Once you've confirmed the layout, you will start to see the disk layout configuration proceed:
+
+![down the river](https://github.com/RooneyMcNibNug/OpenBSD-Config/blob/master/Workstation/Installation/5disks_continued.png)
+
+Now its time to install the meat of the operating system. You'll want to select the sets from the disk in this case, which we'll usually mean hammering the default option given. You'll see the list of the sets to install:
+
+![packed like sardines](https://github.com/RooneyMcNibNug/OpenBSD-Config/blob/master/Workstation/Installation/6sets.png)
+
+I would _highly_ recommend installing all of these sets for a workstation. Havign said that, the only required sets to install for a functioing base system here are ```bsd```
