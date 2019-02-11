@@ -70,16 +70,16 @@ If you shoose to remove one of the sets listed here, you can do so by adding a `
 
 Once you've selected the sets you want, hit ```done``` to start installing them. At this point, the installer will let you know that the ```SHA256``` signature file is not on the install image so it can't verify here:
 
-[siggy](https://github.com/RooneyMcNibNug/OpenBSD-Config/blob/master/Workstation/Installation/7sig.png)
+![siggy](https://github.com/RooneyMcNibNug/OpenBSD-Config/blob/master/Workstation/Installation/7sig.png)
 
 Since we already checked this earlier, go ahead and select ```no``` to continue.
 
 The sets should finish installing rather quickly:
 
-[ready, get set, go](https://github.com/RooneyMcNibNug/OpenBSD-Config/blob/master/Workstation/Installation/8sets_finished.png)
+![ready, get set, go](https://github.com/RooneyMcNibNug/OpenBSD-Config/blob/master/Workstation/Installation/8sets_finished.png)
 
 All you need to do now is select your timezone for the system time and then you're done!
 
-[yay!](https://github.com/RooneyMcNibNug/OpenBSD-Config/blob/master/Workstation/Installation/9end.png)
+![yay!](https://github.com/RooneyMcNibNug/OpenBSD-Config/blob/master/Workstation/Installation/9end.png)
 
 You can go ahead and reboot now to start the system with the install media detached. Next, we will go over what to expect and configure after first boot for your OpenBSD Workstation.
