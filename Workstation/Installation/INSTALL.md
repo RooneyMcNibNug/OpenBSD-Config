@@ -50,6 +50,7 @@ Once you've finished downloading and verifying the install image, [write the fil
 We will be choosing ```yes``` to the question of if we want to create another user on the system. This is a good security principle operationally - to have a non-root user for basic system usage, so that you only need to elevate to root in the case of changing a configuration, installing something, or other major maintenance of the OS. Name the user how you please and choose an additional password for this login.
 
 Now we move to the preperation of the disk(s) on your system:
+
 ![write here, write now](https://github.com/RooneyMcNibNug/OpenBSD-Config/blob/master/Workstation/Installation/4disks.png)
 
 Assuming you have a single drive on this machine, you will most likely be selecting ```[default]``` here, but it is probably best to enter ```?``` to list all the disks found on the system before preparing things to be sure.
