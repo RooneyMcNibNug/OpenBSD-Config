@@ -18,9 +18,8 @@ box" systems, and I tend to agree. A big part of this is probably the
 
 Another factor of stability is the fact that OpenBSD runs great on a lot 
 of different architectures, as well as older hardware and within virtual 
-machines. I've been running the OS on-and-off on both a VirtualBox 
-instance and an older T-series Thinkpad with almost zero problems for 
-~2yrs combined now.
+machines. I've been running the OS on-and-off within both a VirtualBox 
+instance and an older PC with almost zero problems for ~2yrs combined now.
 
 ## Security
 Regardless of the use case, if you happen to ask someone running OpenBSD 
