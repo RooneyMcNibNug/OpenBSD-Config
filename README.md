@@ -8,7 +8,7 @@ _ _ _
 * Resources
 * Workstation
   *  [Why OpenBSD for workstation?](/Workstation/Why/INDEX.md)
-  *  Installation
+  *  [Installation](/Workstation/Installation/INSTALL.md)
   *  afterboot(8)
   *  Windows (xfce)
   *  Networking
