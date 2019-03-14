@@ -10,17 +10,18 @@ _ _ _
   *  [Why OpenBSD for workstation?](/Workstation/Why/INDEX.md)
   *  [Installation](/Workstation/Installation/INSTALL.md)
   *  afterboot(8)
+  *  [Packages](https://github.com/RooneyMcNibNug/OpenBSD-Config/blob/master/Workstation/Packages/PACKAGES.md)
   *  Windows (xfce)
   *  Networking
-  *  Packages
+
   *  Groups
   *  doas(1)
 * Server
   *  Why OpenBSD for servers?
   *  Installation
   *  afterboot(8)
-  *  Networking
   *  Packages
+  *  Networking
   *  Groups
   *  sshd(8)
   *  pf(4)
